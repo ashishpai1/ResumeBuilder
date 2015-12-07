@@ -1,0 +1,109 @@
+/*
+For A4 sized paper we will have this webpage size.
+Refer http://stackoverflow.com/questions/3341485/how-to-make-a-html-page-in-a4-paper-size-pages for details.
+*/
+
+@page {
+    size: 21cm 29.7cm;
+    margin: 30mm 45mm 30mm 45mm; /* change the margins as you want them to be. */
+}
+ ol, ul {
+margin-top : 5px;
+padding-left: 19px;
+}
+
+#resumeTitle{
+margin-top: 5px;
+text-align: center;
+}
+
+#singleLine1{
+	margin-top: -15px;
+	text-align: center
+}
+
+#singleLine2 {
+	text-align: center;
+}
+
+.under{
+	margin-right: 5px;
+	text-decoration: underline;
+
+}
+
+/* Bold and UpperCase */
+.sectionHeader{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*  Bold  */
+.sectionSubHeader{
+    font-weight: bold;
+}
+
+body{	
+	border: 1px solid black;
+	margin: 30mm 45mm 30mm 45mm; 
+	width: 21cm;
+	height: 29.7cm;
+	font-style: normal;
+    font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif; 
+    font-size: 13px;
+}
+
+
+.durationOfWork{
+float: right;
+}
+
+
+#about{
+	border: 1px solid black;	
+	height: 6%;
+}
+
+
+#work{
+	border: 1px solid black;
+	height:27%;
+	margin-left: 0.2cm;
+    margin-top: 0.2cm;
+    margin-right: 0.2cm;
+    margin-bottom: 0.2cm;
+}
+
+
+
+#projects{
+	height:37%;
+	border: 1px solid black;
+	margin-left: 0.2cm;
+    margin-top: 0.2cm;
+    margin-right: 0.2cm;
+    margin-bottom: 0.2cm;
+
+}
+
+#skills{
+	border:1px solid black;
+	height: 20%;
+	margin-left: 0.2cm;
+    margin-top: 0.2cm;
+    margin-right: 0.2cm;
+    margin-bottom: 0.2cm;
+
+}
+
+#education{
+	height:9.2%;
+	border: 1px solid black;
+	margin-left: 0.2cm;
+    margin-top: 0.2cm;
+    margin-right: 0.2cm;
+    margin-bottom: 0.2cm;
+
+}
+
+/* waste of 0.8 % of height */
